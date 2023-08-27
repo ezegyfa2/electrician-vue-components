@@ -29,10 +29,10 @@ export default {
         );
 
 		registerVueComponent(
-            'fruits-website-description-section',
+            'electrician-description-section',
             require('./Content/Description/Component.vue').default,
             Vue,
-            'fruits-website-vue-components/src/Content/Description/Component.vue'
+            'electrician-vue-components/src/Content/Description/Component.vue'
         );
 
 		registerVueComponent(
@@ -85,10 +85,10 @@ export default {
         );
 
         registerVueComponent(
-            'fruits-website-carousel',
+            'electrician-carousel',
             require('./Content/Carousel/Component.vue').default,
             Vue,
-            'fruits-website-vue-components/src/Content/Carousel/Component.vue'
+            'electrician-vue-components/src/Content/Carousel/Component.vue'
         );
 	}
 }

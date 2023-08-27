@@ -4,7 +4,39 @@ export default {
         "navigation_bar_image_url": "/assets/img/logo_small.svg",
         "content_sections": [
             {
-                "type": "fruits-website-carousel"
+                "type": "electrician-carousel",
+                "data": {
+                    "carousel_items": [
+                        {
+                            "isActive": true,
+                            "dataTarget": "#carouselIndicators",
+                            "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg",
+                            "alt": "First slide"
+                        },
+                        {
+                            "isActive": false,
+                            "dataTarget": "#carouselIndicators",
+                            "src": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg",
+                            "alt": "Second slide"
+                        },
+                        {
+                            "isActive": false,
+                            "dataTarget": "#carouselIndicators",
+                            "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg",
+                            "alt": "Third slide"
+                        },
+                    ],
+                    "carousel_buttons": [
+                        {
+                            "dataSlideTitle": "#carouselIndicators",
+                            "title": "Vissza"
+                        },
+                        {
+                            "dataSlideTitle": "#carouselIndicators",
+                            "title": "Előre"
+                        },
+                    ]
+                }
             },
             {
                 "type": "fruits-website-card",
