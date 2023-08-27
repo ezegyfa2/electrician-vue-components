@@ -1,0 +1,91 @@
+@import '../../styles/variables';
+@import '~bootstrap/scss/bootstrap';
+
+.topbar {
+    height: $topbar-base-height;
+    display: flex;
+    justify-content: center;
+    background-color: $primary-bg-color;
+    font-family: $primary-font-family;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    padding: 0 65px 0 40px;
+
+    a {
+        color: #303442;
+        font-weight: 600;
+        position: relative;
+        padding: 9px 0 9px 25px;
+        overflow: hidden;
+        display: inline-block;
+        text-decoration: none
+    }
+}
+
+.sidebar-brand {
+    color: $primary-color;
+    margin-bottom: 0rem;
+    &:hover {
+        color: $secondary-color-lighter;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+    a {
+        font-size: 16px;
+        line-height: 26px;
+
+        &:hover {
+            animation: shaking 0.4s 2;
+            color: $secondary-color;
+        }
+        
+        @keyframes shaking {
+           0% {transform: translateX(-10px);}
+           20% {transform: translateX(-5px);}
+           50% {transform: translateX(-5px);}
+           70% {transform: translateX(-5px);}
+           80% {transform: translateX(10px);}
+           90% {transform: translateX(-10px);}
+        }
+    }
+}
+
+.btn, .btn:disabled {
+    /* Layout Properties */
+    width: 200px;
+    height: 48px;
+    /* UI Properties */
+    background: $secondary-color 0% 0% no-repeat padding-box;
+    color: $light-color;
+    border: 1px solid $secondary-color;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    color: $secondary-color-lighter;
+    background-color: $light-color;
+    border-color: $secondary-color-lighter;
+}
+
+.btn:disabled {
+    background-color: $secondary-color-darker;
+    border-color: $secondary-color-darker;
+}
+
+.btn-l {
+    padding: .70rem 1.25rem .75rem 1.25rem;
+    font-family: $primary-font-family;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 35px;
+}
