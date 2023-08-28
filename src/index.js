@@ -1,9 +1,6 @@
 export default {
 	install(Vue) {
-		require('blue-admin-vue-components').default.install(Vue)
-		require('description-vue-components').default.install(Vue)
 		require('helper-vue-components').default.install(Vue)
-		require('dynamic-web-vue-components').default.install(Vue);
 
 		require('./Templates/templateRegister').default.install()
 
