@@ -2,11 +2,30 @@
 
 .text-box {
     background-color: $primary-color;
-    margin-bottom: 6rem;
+    margin: 6rem 0;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    position: relative;
+    max-width: 50vw;
+    transform: skew(12deg, 0);
 }
 
 .img-fluid {
-    max-width: 50vw;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    -webkit-transform: skew(12deg, 0);
+    transform: skew(-12deg);
+    overflow: hidden;
+    width: calc(100% - 15px);
+    
+    &:hover {
+        z-index: 1;
+        width: calc(100% + 30px);
+    }
 }
 
 .light-text {
