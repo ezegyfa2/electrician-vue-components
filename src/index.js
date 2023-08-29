@@ -1,6 +1,7 @@
 export default {
 	install(Vue) {
 		require('helper-vue-components').default.install(Vue)
+		require('text-contents-vue-components').default.install(Vue)
 
 		require('./Templates/templateRegister').default.install()
 
@@ -86,6 +87,13 @@ export default {
             require('./Content/Carousel/Component.vue').default,
             Vue,
             'electrician-vue-components/src/Content/Carousel/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-skew-container',
+            require('./SkewContainer/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/SkewContainer/Component.vue'
         );
 	}
 }

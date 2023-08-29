@@ -6,35 +6,128 @@ export default {
             {
                 "type": "electrician-carousel",
                 "data": {
-                    "carousel_items": [
+                    "slide_sections": [
                         {
-                            "isActive": true,
-                            "dataTarget": "#carouselIndicators",
-                            "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg",
-                            "alt": "First slide"
+                            "type": "zoom-carousel-slide",
+                            "data": {
+                                "background_image_source": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg",
+                                "content_section": {
+                                    "type": "small-text-content",
+                                    "data": {
+                                        "title": "asdgdsaf",
+                                        "content": "gnjselgrnrgnesrognorngn"
+                                    }
+                                }
+                            }
                         },
                         {
-                            "isActive": false,
-                            "dataTarget": "#carouselIndicators",
-                            "src": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg",
-                            "alt": "Second slide"
+                            "type": "zoom-carousel-slide",
+                            "data": {
+                                "background_image_source": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg",
+                                "content_section": {
+                                    "type": "small-text-content",
+                                    "data": {
+                                        "title": "asdgdsaf",
+                                        "content": "gnjselgrnrgnesrognorngn"
+                                    }
+                                }
+                            }
                         },
                         {
-                            "isActive": false,
-                            "dataTarget": "#carouselIndicators",
-                            "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg",
-                            "alt": "Third slide"
-                        },
-                    ],
-                    "carousel_buttons": [
+                            "type": "zoom-carousel-slide",
+                            "data": {
+                                "background_image_source": "/assets/img/male-electrician-protective-helmet-1500x857.jpg",
+                                "content_section": {
+                                    "type": "small-text-content",
+                                    "data": {
+                                        "title": "asdgdsaf",
+                                        "content": "gnjselgrnrgnesrognorngn"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "electrician-skew-container",
+                "data": {
+                    "content_items": [
                         {
-                            "dataSlideTitle": "prev",
-                            "title": "Vissza"
+                            "content_section": {
+                                "type": "small-text-content",
+                                "data": {
+                                    "title": "asdgdsaf",
+                                    "content": "gnjselgrnrgnesrognorngn"
+                                }
+                            },
+                            "background_section": {
+                                "type": "height-fit-image",
+                                "data": {
+                                    "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg"
+                                }
+                            }
                         },
                         {
-                            "dataSlideTitle": "next",
-                            "title": "Előre"
+                            "content_section": {
+                                "type": "small-text-content",
+                                "data": {
+                                    "title": "asdgdsaf",
+                                    "content": "gnjselgrnrgnesrognorngn"
+                                }
+                            },
+                            "background_section": {
+                                "type": "height-fit-image",
+                                "data": {
+                                    "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg"
+                                }
+                            }
                         },
+                        {
+                            "content_section": {
+                                "type": "small-text-content",
+                                "data": {
+                                    "title": "asdgdsaf",
+                                    "content": "gnjselgrnrgnesrognorngn  fgmkgdpsgmlkdsf gsfd gsfdpgjsfdkjhgo pjfdnghos hgops hgopisdh opisdfh jopsdh opdsf hopisdj hopisdfj hopsd"
+                                }
+                            },
+                            "background_section": {
+                                "type": "height-fit-image",
+                                "data": {
+                                    "src": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg"
+                                }
+                            }
+                        },
+                        {
+                            "content_section": {
+                                "type": "small-text-content",
+                                "data": {
+                                    "title": "asdgdsaf",
+                                    "content": "gnjselgrnrgnesrognorngn"
+                                }
+                            },
+                            "background_section": {
+                                "type": "height-fit-image",
+                                "data": {
+                                    "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg"
+                                }
+                            }
+                        },
+                        {
+                            "content_section": {
+                                "type": "small-text-content",
+                                "data": {
+                                    "title": "asdgdsaf",
+                                    "content": "gnjselgrnrgnesrognorngn"
+                                }
+                            },
+                            "background_section": {
+                                "type": "height-fit-image",
+                                "data": {
+                                    "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg"
+                                }
+                            }
+                        }
                     ]
                 }
             },
