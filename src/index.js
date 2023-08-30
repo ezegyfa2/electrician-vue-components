@@ -77,9 +77,9 @@ export default {
 
         registerVueComponent(
             'electrician-services',
-            require('./Content/Services/Component.vue').default,
+            require('./Content/Services/Services/Component.vue').default,
             Vue,
-            'fruits-website-vue-components/src/Content/Services/Component.vue'
+            'fruits-website-vue-components/src/Content/Services/Services/Component.vue'
         );
 
         registerVueComponent(

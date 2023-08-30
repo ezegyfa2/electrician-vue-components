@@ -18,7 +18,7 @@ section
 										.item-description
 											| We offer the highest level of responsiveness and reliability, including on-line job management and reporting. Our highly experienced contractors across the nation ensure that your premises are always maintained and compliant.
 										.item-btn
-											a(href='#' @click='openInfo(1)') {{ 1 == openInfoItem ? '-' : '+' }}
+											a(@click='openInfo(1)') {{ 1 == openInfoItem ? '-' : '+' }}
 								.slideinfo(@mouseover='mouseOver(2)' @mouseleave='mouseLeave' :class='[ [activetedActiveClass ? (2 == activeItem ? "active" : "short") : ""], { "open-info": 2 == openInfoItem } ]')
 									.item-bg
 										.lazyloaded(data-bg='https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/07/slideinfo-02.jpg' style='background-image: url("https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/07/slideinfo-02.jpg");')
@@ -31,7 +31,7 @@ section
 										.item-description
 											| We offer the highest level of responsiveness and reliability, including on-line job management and reporting. Our highly experienced contractors across the nation ensure that your premises are always maintained and compliant.
 										.item-btn
-											a(href='#' @click='openInfo(2)') {{ 2 == openInfoItem ? '-' : '+' }}
+											a(@click='openInfo(2)') {{ 2 == openInfoItem ? '-' : '+' }}
 								.slideinfo(@mouseover='mouseOver(3)' @mouseleave='mouseLeave' :class='[ [activetedActiveClass ? (3 == activeItem ? "active" : "short") : ""], { "open-info": 3 == openInfoItem } ]')
 									.item-bg
 										.lazyloaded(data-bg='https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/07/slideinfo-03.jpg' style='background-image: url("https://smartdata.tonytemplates.com/electrician-v2/wp-content/uploads/2020/07/slideinfo-03.jpg");')
@@ -44,4 +44,4 @@ section
 										.item-description
 											| We offer the highest level of responsiveness and reliability, including on-line job management and reporting. Our highly experienced contractors across the nation ensure that your premises are always maintained and compliant.
 										.item-btn
-											a(href='#' @click='openInfo(3)') {{ 3 == openInfoItem ? '-' : '+' }}		
+											a(@click='openInfo(3)') {{ 3 == openInfoItem ? '-' : '+' }}		

@@ -8,9 +8,13 @@
             content_section: {
                 type: Object
             },
-            activeItem: 0,
-            activetedActiveClass: false,
-            openInfoItem: 0
+        },
+        data() {
+            return {
+                activeItem: 0,
+                activetedActiveClass: false,
+                openInfoItem: 0
+            }
         },
         methods: {
             mouseOver(i) {
