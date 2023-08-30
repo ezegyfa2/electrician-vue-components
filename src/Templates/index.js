@@ -153,17 +153,8 @@ export default {
                 }
             },
             {
-                "type": "fruits-website-articles-small-text-content-with-two-images",
+                "type": "electrician-services",
                 "data": {
-                    "title": "Madéfalva neve a Szeresd az Istent!",
-                    "content": "Madéfalva neve a Szeresd az Istent! parancsolat latin nevéből ered. Annak a felismeréséből származik, hogy az Isten szeretete ösztönös, belülről jövő késztetés, hogy az emberi szellemnek úgy része ez a parancsolat, ahogyan a pataknak is van elve, amit követnie kell.",
-                    "top_image_url": "/assets/img/brand_element_01.svg",
-                    "top_image_alt": "...",
-                    "bottom_image_url": "/assets/img/dot.svg",
-                    "bottom_image_alt": "...",
-                    "added_classes": {
-                        '.content': ['mb-0'],
-                    },
                 },
             },
             {
@@ -214,26 +205,6 @@ export default {
                         '.content': ['mb-0'],
                     },
                 },
-            },
-            {
-                "type": "fruits-website-description-section",
-                "data": {
-                    "text_content_section": {
-                        "type": 'fruits-website-articles-small-text-content',
-                        "data": {
-                            "title": "Ma délután a lemenő nap aranyozta be az érett almákat.",
-                            "content": "UT ENIM AD MINIMA VENIAM",
-                            "button_content": "Tovább",
-                            "url": '/',
-                            "added_classes": {
-                                '.content': ['mb-0'],
-                            },
-                        },
-                    },
-                    "image_url": "/assets/img/fruit_3.jpg",
-                    "image_alt": "...",
-                    "left_orientation": false,
-                }
             },
             {
                 "type": "fruits-website-articles-small-text-content-with-two-images",

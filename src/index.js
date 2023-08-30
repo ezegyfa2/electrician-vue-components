@@ -76,10 +76,10 @@ export default {
         );
 
         registerVueComponent(
-            'fruits-website-card',
-            require('./Content/Card/Component.vue').default,
+            'electrician-services',
+            require('./Content/Services/Component.vue').default,
             Vue,
-            'fruits-website-vue-components/src/Content/Card/Component.vue'
+            'fruits-website-vue-components/src/Content/Services/Component.vue'
         );
 
         registerVueComponent(
