@@ -1,9 +1,19 @@
-nav.navbar.navbar-expand.navbar-light.topbar.static-top
+nav.navbar.navbar-expand.navbar-light.topbar.fixed-top(ref='mainNav')
     .logo
         dynamic-component(
             v-bind:component_infos='brand_section'
         )
-        .menu
+        button.btn.navbar-toggler(
+            type='button' 
+            data-bs-toggle='collapse' 
+            v-bind:data-bs-target='"#" + navigationBarId' 
+            aria-controls='navbarResponsive' 
+            aria-expanded='false' 
+            aria-label='Toggle navigation'
+        )
+            | Menu
+            i.fas.fa-bars
+        .menu.collapse.navbar-collapse(v-bind:id='navigationBarId')
             a(href='/home') Rólunk
             a(href='/products') Termékeink
-            button.btn.btn-l Időpont kérés
+            button.btn.btn-l Időpontkérés

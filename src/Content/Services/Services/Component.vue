@@ -5,8 +5,8 @@
 <script>
     export default {
         props: {
-            content_section: {
-                type: Object
+            content_sections: {
+                type: Array
             },
         },
         data() {

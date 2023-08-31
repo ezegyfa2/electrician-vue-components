@@ -1,31 +1,6 @@
 @import "../../styles/variables";
 
 .carousel {
-    max-width: 100%;
-    height: auto;
-}
-
-@-webkit-keyframes zoom {
-    from {
-        -webkit-transform: scale(1, 1);
-    }
-    to {
-        -webkit-transform: scale(1.5, 1.5);
-    }
-}
-  
-@keyframes zoom {
-    from {
-        transform: scale(1, 1);
-    }
-    to {
-        transform: scale(1.5, 1.5);
-    }
-}
-  
-.carousel-item > img {
-    max-width: 100%;
-    height: auto;
-    -webkit-animation: zoom 10s;
-    animation: zoom 10s;
+    margin-top: 7rem;
+    margin-bottom: 6rem;
 }
