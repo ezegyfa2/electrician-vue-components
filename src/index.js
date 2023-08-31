@@ -37,42 +37,14 @@ export default {
             'electrician-articles-small-text-content',
             require('./Content/ArticlesSmallTextContent/Component.vue').default,
             Vue,
-            'fruits-website-vue-components/src/Content/ArticlesSmallTextContent/Component.vue'
+            'electrician-vue-components/src/Content/ArticlesSmallTextContent/Component.vue'
         );
 
         registerVueComponent(
-            'fruits-website-articles-small-text-content-with-big-button',
-            require('./Content/ArticlesSmallTextContentWithBigButton/Component.vue').default,
+            'electrician-carousel-small-text-content',
+            require('./Content/Carousel/CarouselSmallTextContent/Component.vue').default,
             Vue,
-            'fruits-website-vue-components/src/Content/ArticlesSmallTextContentWithBigButton/Component.vue'
-        );
-
-		registerVueComponent(
-            'fruits-website-articles-small-text-content-with-two-images',
-            require('./Content/ArticlesSmallTextContentWithTwoImages/Component.vue').default,
-            Vue,
-            'fruits-website-vue-components/src/Content/ArticlesSmallTextContentWithTwoImages/Component.vue'
-        );
-
-        registerVueComponent(
-            'fruits-website-articles-small-text-content-with-subtitle',
-            require('./Content/ArticlesSmallTextContentWithSubtitle/Component.vue').default,
-            Vue,
-            'fruits-website-vue-components/src/Content/ArticlesSmallTextContentWithSubtitle/Component.vue'
-        );
-
-		registerVueComponent(
-            'fruits-website-footer',
-            require('./Footer/Component.vue').default,
-            Vue,
-            'fruits-website-vue-components/src/Footer/Component.vue'
-        );
-
-		registerVueComponent(
-            'fruits-website-button-icon-link',
-            require('./ButtonIconLink/Component.vue').default,
-            Vue,
-            'fruits-website-vue-components/src/ButtonIconLink/Component.vue'
+            'electrician-vue-components/src/Content/Carousel/CarouselSmallTextContent/Component.vue'
         );
 
         registerVueComponent(
@@ -84,9 +56,23 @@ export default {
 
         registerVueComponent(
             'electrician-carousel',
-            require('./Content/Carousel/Component.vue').default,
+            require('./Content/Carousel/Carousel/Component.vue').default,
             Vue,
-            'electrician-vue-components/src/Content/Carousel/Component.vue'
+            'electrician-vue-components/src/Content/Carousel/Carousel/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-zoom-carousel-slide',
+            require('./Content/Carousel/ZoomCarouselSlide/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/Content/Carousel/ZoomCarouselSlide/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-dynamic-zoom-carousel-slide',
+            require('./Content/Carousel/DynamicZoomCarouselSlide/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/Content/Carousel/DynamicZoomCarouselSlide/Component.vue'
         );
 
         registerVueComponent(
@@ -94,6 +80,20 @@ export default {
             require('./SkewContainer/Component.vue').default,
             Vue,
             'electrician-vue-components/src/SkewContainer/Component.vue'
+        );
+
+        registerVueComponent(
+            'fruits-website-footer',
+            require('./Footer/Component.vue').default,
+            Vue,
+            'fruits-website-vue-components/src/Footer/Component.vue'
+        );
+
+		registerVueComponent(
+            'fruits-website-button-icon-link',
+            require('./ButtonIconLink/Component.vue').default,
+            Vue,
+            'fruits-website-vue-components/src/ButtonIconLink/Component.vue'
         );
 	}
 }
