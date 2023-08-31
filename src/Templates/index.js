@@ -61,11 +61,8 @@ export default {
                                     "content": "gnjselgrnrgnesrognorngn"
                                 }
                             },
-                            "background_section": {
-                                "type": "height-fit-image",
-                                "data": {
-                                    "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg"
-                                }
+                            "background_image": {
+                                "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg"
                             }
                         },
                         {
@@ -76,11 +73,8 @@ export default {
                                     "content": "gnjselgrnrgnesrognorngn"
                                 }
                             },
-                            "background_section": {
-                                "type": "height-fit-image",
-                                "data": {
-                                    "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg"
-                                }
+                            "background_image": {
+                                "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg"
                             }
                         },
                         {
@@ -91,11 +85,8 @@ export default {
                                     "content": "gnjselgrnrgnesrognorngn  fgmkgdpsgmlkdsf gsfd gsfdpgjsfdkjhgo pjfdnghos hgops hgopisdh opisdfh jopsdh opdsf hopisdj hopisdfj hopsd"
                                 }
                             },
-                            "background_section": {
-                                "type": "height-fit-image",
-                                "data": {
-                                    "src": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg"
-                                }
+                            "background_image": {
+                                "src": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg"
                             }
                         },
                         {
@@ -106,11 +97,8 @@ export default {
                                     "content": "gnjselgrnrgnesrognorngn"
                                 }
                             },
-                            "background_section": {
-                                "type": "height-fit-image",
-                                "data": {
-                                    "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg"
-                                }
+                            "background_image": {
+                                "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg"
                             }
                         },
                         {
@@ -121,11 +109,8 @@ export default {
                                     "content": "gnjselgrnrgnesrognorngn"
                                 }
                             },
-                            "background_section": {
-                                "type": "height-fit-image",
-                                "data": {
-                                    "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg"
-                                }
+                            "background_image": {
+                                "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg"
                             }
                         }
                     ]
