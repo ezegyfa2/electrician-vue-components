@@ -1,6 +1,14 @@
 @import '../../styles/variables';
 @import '~bootstrap/scss/bootstrap';
 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .topbar {
     height: $topbar-base-height;
     display: flex;
@@ -88,4 +96,10 @@
     font-size: 1rem;
     font-weight: 700;
     margin-left: 35px;
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        flex-direction: column;
+    }    
 }

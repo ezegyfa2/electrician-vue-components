@@ -2,17 +2,19 @@
 
 .title {
     @extend .primary-text;
-    font: normal normal bold 50px $primary-font-family;
+    font: normal normal bold 36px $primary-font-family;
+    line-height: 46px;
     width: 550px;
     letter-spacing: -1px;
     margin-top: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
 }
 
 .content {
     @extend .secondary-text;
-    color: $secondary-color;
-    font: normal normal normal 28px $primary-font-family;
+    font: normal normal normal 16px $primary-font-family;
+    line-height: 27px;
     letter-spacing: 0.48px;
     opacity: 1;
     white-space: pre-wrap;
@@ -25,18 +27,8 @@
     }
 }
 
-.text-lg-right {
-    .title {
-        color: $secondary-color;
-    }
-
-    .content {
-        color: $light-color;
-    }
-}
-
 .link {
-    margin-top: 4rem;
+    margin-top: 1.5rem;
 }
 
 .btn, .btn:disabled {

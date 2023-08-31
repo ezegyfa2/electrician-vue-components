@@ -34,7 +34,7 @@ export default {
         );
 
 		registerVueComponent(
-            'fruits-website-articles-small-text-content',
+            'electrician-articles-small-text-content',
             require('./Content/ArticlesSmallTextContent/Component.vue').default,
             Vue,
             'fruits-website-vue-components/src/Content/ArticlesSmallTextContent/Component.vue'
