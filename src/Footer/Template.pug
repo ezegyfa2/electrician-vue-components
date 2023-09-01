@@ -1,12 +1,54 @@
-footer.footer
-    .text-center
-        img.img-fluid(
-            v-bind:src='image_url'
-            v-bind:alt='image_alt'
-        )
-    .copyright
-        .text-center {{ copyright.content }}
-    .w-100.d-flex.justify-content-center
-        dynamic-component.text-center(
-            v-bind:component_infos='icon_links_section'
-        )
+footer.footer-area
+    .container
+        .row.justify-content-between
+            .col
+                .footer-widget
+                    dynamic-component(
+                        v-for='thingSection in cartContent' v-bind:key='thingSection.id'
+                        v-bind:component_infos='thingSection'
+                    )
+                    // column1_sections 
+                    dynamic-component(
+                        v-for='column1_section in column1_sections'
+                        v-bind:component_infos='column1_section'
+                    )
+                    // column1_sections
+            .col
+                .footer-widget
+                    // column2_sections
+                    dynamic-component(
+                        v-for='column2_section in column2_sections'
+                        v-bind:component_infos='column2_section'
+                    )
+                    // column2_sections
+            .col
+                .footer-widget
+                    // column3_sections
+                    dynamic-component(
+                        v-for='column3_section in column3_sections'
+                        v-bind:component_infos='column3_section'
+                    )
+                    // column3_sections
+            .col-md-6.col-sm-12.text-md-right.pb-5
+                .footer-widget
+                    // right_sections
+                    h4 {{ right_sections.street }},
+                    h4 {{ right_sections.city }}
+                    .footer-email
+                        a(:href="'mailto:' + right_sections.email") {{ right_sections.email }}
+                    h5 {{ right_sections.open }}
+                    h6.footer-phone {{ right_sections.phone_number }}
+                    // right_sections
+        .row.justify-content-between.mt-2
+            .col
+                // bottom_left_section
+                .tiny-footer
+                    p {{ bottom_left_section.copy }} 
+                // bottom_left_section
+            .col.text-right
+                // bottom_right_section
+                .social-info
+                    dynamic-component.text-center(
+                        v-bind:component_infos='bottom_right_section'
+                    )
+                // bottom_right_section

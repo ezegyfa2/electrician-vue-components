@@ -15,7 +15,7 @@ export default {
                                     "type": "electrician-carousel-small-text-content",
                                     "data": {
                                         "title": "Villanyszerelés",
-                                        "content": "Megbízható és biztonságos\n\nmegoldások!"
+                                        "content": "Megbízható és biztonságos\nmegoldások!"
                                     }
                                 }
                             }
@@ -28,7 +28,7 @@ export default {
                                     "type": "electrician-carousel-small-text-content",
                                     "data": {
                                         "title": "Napelemek",
-                                        "content": "Hatékony és fenntartható\n\nnapelemes rendszerek!"
+                                        "content": "Hatékony és fenntartható\nnapelemes rendszerek!"
                                     }
                                 }
                             }
@@ -41,7 +41,7 @@ export default {
                                     "type": "electrician-carousel-small-text-content",
                                     "data": {
                                         "title": "Automatizálás",
-                                        "content": "Okos megoldások\n\na mindennapokban!"
+                                        "content": "Okos megoldások\na mindennapokban!"
                                     }
                                 }
                             }

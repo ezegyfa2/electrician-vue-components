@@ -1,5 +1,5 @@
 <script>
-    import ButtonIconLink2 from './../../../helper-vue-components/src/IconLinks/ButtonIconLink2/Component.vue';
+    import ButtonIconLink2 from './../../../../helper-vue-components/src/IconLinks/ButtonIconLinkLight/Component.vue';
 
     export default {
         mixins: [

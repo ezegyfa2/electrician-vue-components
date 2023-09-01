@@ -6,13 +6,6 @@ export default {
 		require('./Templates/templateRegister').default.install()
 
 		registerVueComponent(
-			'fruits-website-page', 
-			require('./LayoutPage/Component.vue').default, 
-			Vue,
-			'fruits-website-vue-components/src/LayoutPage/Component.vue'
-		);
-
-		registerVueComponent(
 			'electrician-navigation-bar',
 			require('./NavigationBar/NavigationBar/Component.vue').default,
 			Vue,
@@ -83,17 +76,31 @@ export default {
         );
 
         registerVueComponent(
-            'fruits-website-footer',
+            'electrician-footer',
             require('./Footer/Component.vue').default,
             Vue,
-            'fruits-website-vue-components/src/Footer/Component.vue'
+            'electrician-vue-components/src/Footer/Component.vue'
         );
 
 		registerVueComponent(
-            'fruits-website-button-icon-link',
-            require('./ButtonIconLink/Component.vue').default,
+            'electrician-button-icon-link',
+            require('./Content/ButtonIconLink/Component.vue').default,
             Vue,
-            'fruits-website-vue-components/src/ButtonIconLink/Component.vue'
+            'electrician-vue-components/src/Content/ButtonIconLink/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-list-items-content',
+            require('./Content/ListItemsContent/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/Content/ListItemsContent/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-list-item-link',
+            require('./Content/ListItemLink/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/Content/ListItemLink/Component.vue'
         );
 	}
 }

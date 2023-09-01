@@ -1,0 +1,7 @@
+.item
+    .footer-title(v-if='title') {{ title }}
+    ul.list-unstyled
+        dynamic-component(
+            v-for='link_section in link_sections'
+            v-bind:component_infos='link_section'
+        )
