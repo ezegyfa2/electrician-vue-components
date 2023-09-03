@@ -14,9 +14,9 @@ export default {
 
 		registerVueComponent(
             'electrician-brand-image',
-            require('./BrandImage/Component.vue').default,
+            require('./Content/BrandImage/Component.vue').default,
             Vue,
-            'electrician-vue-components/src/BrandImage/Component.vue'
+            'electrician-vue-components/src/Content/BrandImage/Component.vue'
         );
 
 		registerVueComponent(
@@ -70,9 +70,16 @@ export default {
 
         registerVueComponent(
             'electrician-skew-container',
-            require('./SkewContainer/Component.vue').default,
+            require('./Content/SkewContainer/SkewContainer/Component.vue').default,
             Vue,
-            'electrician-vue-components/src/SkewContainer/Component.vue'
+            'electrician-vue-components/src/Content/SkewContainer/SkewContainer/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-skew-text-content-with-icon',
+            require('./Content/SkewContainer/SkewTextContentWithIcon/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/Content/SkewContainer/SkewTextContentWithIcon/Component.vue'
         );
 
         registerVueComponent(

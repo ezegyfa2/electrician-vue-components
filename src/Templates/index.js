@@ -23,7 +23,7 @@ export default {
                         {
                             "type": "electrician-zoom-carousel-slide",
                             "data": {
-                                "background_image_source": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg",
+                                "background_image_source": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-1500x857.jpg",
                                 "content_section": {
                                     "type": "electrician-carousel-small-text-content",
                                     "data": {
@@ -36,7 +36,7 @@ export default {
                         {
                             "type": "electrician-zoom-carousel-slide",
                             "data": {
-                                "background_image_source": "/assets/img/male-electrician-protective-helmet-1500x857.jpg",
+                                "background_image_source": "/assets/img/businessman-hand-holding-lightbulb-with-glowing-light-creative-smart-thinking-inspiration-1500x857.jpg",
                                 "content_section": {
                                     "type": "electrician-carousel-small-text-content",
                                     "data": {
@@ -116,38 +116,38 @@ export default {
                     "content_items": [
                         {
                             "content_section": {
-                                "type": "small-text-content",
+                                "type": "electrician-skew-text-content-with-icon",
                                 "data": {
-                                    "title": "asdgdsaf",
-                                    "content": "gnjselgrnrgnesrognorngn"
+                                    "title": "Okos megoldások",
+                                    "content": "Weboldalunkon okos megoldásokat kínálunk az elektromos szerelés területén, hogy növeljük otthona energiahatékonyságát és biztonságát.\nFedezze fel legújabb technológiáinkat és tanácsainkat, hogy egyszerűbben és intelligensebben irányíthassa otthoni elektromos rendszereit."
                                 }
                             },
                             "background_image": {
-                                "src": "/assets/img/caucasian-businessman-dark-glasses-working-late-city-office-generated-by-ai.jpg"
+                                "src": "/assets/img/blur-man-showing-transparent-light-bulb-1500x857.jpg"
                             }
                         },
                         {
                             "content_section": {
-                                "type": "small-text-content",
+                                "type": "electrician-skew-text-content-with-icon",
                                 "data": {
-                                    "title": "asdgdsaf",
-                                    "content": "gnjselgrnrgnesrognorngn"
+                                    "title": "Villanyszerelés",
+                                    "content": "Gyors és precíz munkavégzés legyen szó lakóházról, irodáról\nvagy ipari komplexumról.\nRugalmasan alkalmazkodunk az Ön igényeihez."
                                 }
                             },
                             "background_image": {
-                                "src": "/assets/img/male-electrician-protective-helmet-1500x857.jpg"
+                                "src": "/assets/img/male-electrician-works-switchboard-with-electrical-connecting-cable2-1500x857.jpg"
                             }
                         },
                         {
                             "content_section": {
-                                "type": "small-text-content",
+                                "type": "electrician-skew-text-content-with-icon",
                                 "data": {
-                                    "title": "asdgdsaf",
-                                    "content": "gnjselgrnrgnesrognorngn  fgmkgdpsgmlkdsf gsfd gsfdpgjsfdkjhgo pjfdnghos hgops hgopisdh opisdfh jopsdh opdsf hopisdj hopisdfj hopsd"
+                                    "title": "Napelemek telepítése",
+                                    "content": "Napelemek szerelése, telepítése rövid határidővel! Precíz munkavégzés az igényeknek megfelelően."
                                 }
                             },
                             "background_image": {
-                                "src": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-generated-by-ai.jpg"
+                                "src": "/assets/img/man-worker-firld-by-solar-panels-1500x857.jpg"
                             }
                         },
                     ]

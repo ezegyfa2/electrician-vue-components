@@ -1,21 +1,17 @@
 <template lang="pug">
-    include Template.pug
+include Template.pug
 </template>
 
 <script>
-    import SmallTextContent from '../../../../text-contents-vue-components/src/SmallTextContent/Component.vue'
+    import SmallTextContent from '../../../../../text-contents-vue-components/src/SmallTextContent/Component.vue'
 
     export default {
         mixins: [
             SmallTextContent
         ],
         props: {
-            url: {
+            img_url: {
                 type: String
-            },
-            button_content: {
-                type: String,
-                default: 'Contact us'
             }
         }
     }

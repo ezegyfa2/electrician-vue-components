@@ -1,5 +1,5 @@
 <script>
-    import SkewContainer from './../../../helper-vue-components/src/Containers/Skew/Component.vue';
+    import SkewContainer from '../../../../../helper-vue-components/src/Containers/Skew/Component.vue';
 
     export default {
         mixins: [

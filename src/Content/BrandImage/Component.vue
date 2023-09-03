@@ -1,10 +1,13 @@
 <template lang="pug">
-    include Template.pug
+include Template.pug
 </template>
 
 <script>
     export default {
         props: {
+            title: {
+                type: String
+            },
             url: {
                 type: String
             },

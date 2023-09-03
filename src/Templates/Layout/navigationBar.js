@@ -4,6 +4,7 @@ export default {
         "brand_section": {
             "type": "electrician-brand-image",
             "data": {
+                "title": "Electrician",
                 "url": "/home",
                 "image_url": "++image_url",
                 "image_alt": "Brand Image"
