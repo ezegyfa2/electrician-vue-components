@@ -12,6 +12,13 @@ export default {
 			'electrician-vue-components/src/NavigationBar/NavigationBar/Component.vue'
 		);
 
+        registerVueComponent(
+			'electrician-navigation-link',
+			require('./NavigationBar/NavigationLink/Component.vue').default,
+			Vue,
+			'electrician-vue-components/src/NavigationBar/NavigationLink/Component.vue'
+		);
+
 		registerVueComponent(
             'electrician-brand-image',
             require('./Content/BrandImage/Component.vue').default,

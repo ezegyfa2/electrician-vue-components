@@ -10,8 +10,18 @@ include Template.pug
             NavigationBar
         ],
         props: {
+            navigationBarId: {
+                type: String,
+                default: 'navigationBarId'
+            },
             brand_section: {
                 type: Object
+            },
+            link_sections: {
+                type: Array
+            },
+            button_title: {
+                type: String
             },
             language: {
                 type: String,

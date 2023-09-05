@@ -1,19 +1,21 @@
-nav.navbar.navbar-expand.navbar-light.topbar.fixed-top(ref='mainNav')
-    .logo
-        dynamic-component(
-            v-bind:component_infos='brand_section'
-        )
-        button.btn.btn-l.navbar-toggler(
-            type='button' 
-            data-bs-toggle='collapse' 
-            v-bind:data-bs-target='"#" + navigationBarId' 
-            aria-controls='navbarResponsive' 
-            aria-expanded='false' 
-            aria-label='Toggle navigation'
-        )
-            | Menu
-            i.fas.fa-bars
-        .menu.collapse.navbar-collapse(v-bind:id='navigationBarId')
-            a(href='/home') Rólunk
-            a(href='/products') Termékeink
-            button.btn.btn-l Időpontkérés
+nav.navbar.navbar-expand-lg.navbar-light.topbar.fixed-top(ref='mainNav')
+    dynamic-component.navbar-brand(
+        v-bind:component_infos='brand_section'
+    )
+    button.btn.btn-l.navbar-toggler(
+        type='button' 
+        data-toggle='collapse' 
+        v-bind:data-target='"#" + navigationBarId' 
+        v-bind:aria-controls='navigationBarId' 
+        aria-expanded='false' 
+        aria-label='Toggle navigation'
+    )
+        | Menu
+        i.fas.fa-bars
+    .menu.collapse.navbar-collapse(v-bind:id='navigationBarId')
+        ul.navbar-nav
+            dynamic-component.navbar-brand(
+                v-for= 'link_section in link_sections'
+                v-bind:component_infos='link_section'
+            )
+            button.btn.btn-l {{ button_title }}

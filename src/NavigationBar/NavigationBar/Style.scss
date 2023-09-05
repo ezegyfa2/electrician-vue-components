@@ -5,35 +5,29 @@
     justify-content: flex-end;
 }
 
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-.topbar {
-    height: $topbar-base-height;
+.navbar-toggler {
     display: flex;
     justify-content: center;
-    background-color: $primary-bg-color;
-    font-family: $primary-font-family;
+    align-items: center;
+
+    svg {
+        margin-left: 15px;
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
 }
 
-.logo {
+
+.topbar {
+    min-height: $topbar-base-height;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    font-family: "Poppins", sans-serif;
-    padding: 0 65px 0 40px;
-
-    a {
-        color: #303442;
-        font-weight: 600;
-        position: relative;
-        padding: 9px 0 9px 25px;
-        overflow: hidden;
-        display: inline-block;
-        text-decoration: none
-    }
+    background-color: $primary-bg-color;
+    font-family: $primary-font-family;
+    padding: 35px 65px 35px 40px;
 }
 
 .sidebar-brand {
@@ -47,25 +41,10 @@
 .menu {
     display: flex;
     align-items: center;
+}
 
-    a {
-        font-size: 18px;
-        line-height: 28px;
-
-        &:hover {
-            animation: shaking 0.4s 2;
-            color: $secondary-color;
-        }
-        
-        @keyframes shaking {
-           0% {transform: translateX(-10px);}
-           20% {transform: translateX(-5px);}
-           50% {transform: translateX(-5px);}
-           70% {transform: translateX(-5px);}
-           80% {transform: translateX(10px);}
-           90% {transform: translateX(-10px);}
-        }
-    }
+.navbar-nav {
+    align-items: center;
 }
 
 .btn, .btn:disabled {
@@ -101,8 +80,19 @@
     margin-left: 35px;
 }
 
-@media screen and (max-width: 320px) {
-    .logo {
-        flex-direction: column;
-    }    
+@media only screen and (max-width: 768px) {
+    .btn-l {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .topbar {
+        padding: 35px;
+        justify-content: center;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
 }
