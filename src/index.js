@@ -41,17 +41,10 @@ export default {
         );
 
         registerVueComponent(
-            'electrician-carousel-small-text-content',
-            require('./Content/Carousel/CarouselSmallTextContent/Component.vue').default,
+            'electrician-skew-carousel',
+            require('./Content/SkewCarousel/Component.vue').default,
             Vue,
-            'electrician-vue-components/src/Content/Carousel/CarouselSmallTextContent/Component.vue'
-        );
-
-        registerVueComponent(
-            'electrician-services',
-            require('./Content/Services/Services/Component.vue').default,
-            Vue,
-            'fruits-website-vue-components/src/Content/Services/Services/Component.vue'
+            'electrician-vue-components/src/Content/SkewCarousel/Component.vue'
         );
 
         registerVueComponent(
@@ -59,6 +52,27 @@ export default {
             require('./Content/Carousel/Carousel/Component.vue').default,
             Vue,
             'electrician-vue-components/src/Content/Carousel/Carousel/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-carousel-small-text-content',
+            require('./Content/Carousel/CarouselSmallTextContent/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/Content/Carousel/CarouselSmallTextContent/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-small-carousel',
+            require('./Content/Carousel/SmallCarousel/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/Content/Carousel/SmallCarousel/Component.vue'
+        );
+
+        registerVueComponent(
+            'electrician-small-carousel-small-text-content',
+            require('./Content/Carousel/SmallCarouselSmallTextContent/Component.vue').default,
+            Vue,
+            'electrician-vue-components/src/Content/Carousel/SmallCarouselSmallTextContent/Component.vue'
         );
 
         registerVueComponent(

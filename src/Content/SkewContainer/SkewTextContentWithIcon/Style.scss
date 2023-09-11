@@ -1,7 +1,7 @@
 @import "../../../styles/variables";
 
 .item-content {
-    max-width: 390px;
+    width: 390px;
     color: #ffffff;
     text-align: center;
     padding-left: 25px;
@@ -33,7 +33,7 @@
         vertical-align: middle;
         box-sizing: border-box;
         height: 100px;
-        max-width: 100%;
+        width: 100%;
         border: none;
         border-radius: 0;
         box-shadow: none;
@@ -57,7 +57,47 @@
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    max-width: 337px;
+    width: 337px;
     text-shadow: #8db8e3 1px 0 20px;
     white-space: pre-wrap;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .item-content {
+        width: 290px;
+    }
+    
+    .item-title {
+        font-size: 28px;
+    }
+    
+    .item-icon {
+        top: -15px;    
+    }
+    
+    .item-description {
+        font-size: 14px;
+        line-height: 23px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .item-content {
+        width: 200px;
+    }
+    
+    .item-title {
+        font-size: 22px;
+    }
+    
+    .item-icon {
+        top: -15px;    
+    }
+    
+    .item-description {
+        font-size: 12px;
+        line-height: 21px;
+        width: 150px;
+    }
 }

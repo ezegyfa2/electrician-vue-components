@@ -111,53 +111,99 @@ export default {
                 }
             },
             {
-                "type": "electrician-skew-container",
+                "type": "electrician-skew-carousel",
                 "data": {
-                    "content_items": [
-                        {
-                            "content_section": {
-                                "type": "electrician-skew-text-content-with-icon",
-                                "data": {
-                                    "title": "Okos megoldások",
-                                    "content": "Weboldalunkon okos megoldásokat kínálunk az elektromos szerelés területén, hogy növeljük otthona energiahatékonyságát és biztonságát.\nFedezze fel legújabb technológiáinkat és tanácsainkat, hogy egyszerűbben és intelligensebben irányíthassa otthoni elektromos rendszereit."
+                    "carousel_section": {
+                        "type": "electrician-small-carousel",
+                        "data": {
+                            "slide_sections": [
+                                {
+                                    "type": "carousel-slide",
+                                    "data": {
+                                        "background_image_source": "/assets/img/blur-man-showing-transparent-light-bulb-1500x857.jpg",
+                                        "content_section": {
+                                            "type": "electrician-small-carousel-small-text-content",
+                                            "data": {
+                                                "title": "Okos megoldások",
+                                                "content": "Weboldalunkon okos megoldásokat kínálunk az elektromos szerelés területén, hogy növeljük otthona energiahatékonyságát és biztonságát."
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "carousel-slide",
+                                    "data": {
+                                        "background_image_source": "/assets/img/male-electrician-works-switchboard-with-electrical-connecting-cable2-1500x857.jpg",
+                                        "content_section": {
+                                            "type": "electrician-small-carousel-small-text-content",
+                                            "data": {
+                                                "title": "Villanyszerelés",
+                                                "content": "Gyors és precíz munkavégzés legyen szó lakóházról, irodáról\nvagy ipari komplexumról.\nRugalmasan alkalmazkodunk az Ön igényeihez."
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "carousel-slide",
+                                    "data": {
+                                        "background_image_source": "/assets/img/man-worker-firld-by-solar-panels-1500x857.jpg",
+                                        "content_section": {
+                                            "type": "electrician-small-carousel-small-text-content",
+                                            "data": {
+                                                "title": "Napelemek telepítése",
+                                                "content": "Napelemek szerelése, telepítése rövid határidővel! Precíz munkavégzés az igényeknek megfelelően."
+                                            }
+                                        }
+                                    }
                                 }
-                            },
-                            "background_image": {
-                                "src": "/assets/img/blur-man-showing-transparent-light-bulb-1500x857.jpg"
-                            }
-                        },
-                        {
-                            "content_section": {
-                                "type": "electrician-skew-text-content-with-icon",
-                                "data": {
-                                    "title": "Villanyszerelés",
-                                    "content": "Gyors és precíz munkavégzés legyen szó lakóházról, irodáról\nvagy ipari komplexumról.\nRugalmasan alkalmazkodunk az Ön igényeihez."
-                                }
-                            },
-                            "background_image": {
-                                "src": "/assets/img/male-electrician-works-switchboard-with-electrical-connecting-cable2-1500x857.jpg"
-                            }
-                        },
-                        {
-                            "content_section": {
-                                "type": "electrician-skew-text-content-with-icon",
-                                "data": {
-                                    "title": "Napelemek telepítése",
-                                    "content": "Napelemek szerelése, telepítése rövid határidővel! Precíz munkavégzés az igényeknek megfelelően."
-                                }
-                            },
-                            "background_image": {
-                                "src": "/assets/img/man-worker-firld-by-solar-panels-1500x857.jpg"
-                            }
-                        },
-                    ]
+                            ]
+                        }
+                    },
+                    "skew_section": {
+                        "type": "electrician-skew-container",
+                        "data": {
+                            "content_items": [
+                                {
+                                    "content_section": {
+                                        "type": "electrician-skew-text-content-with-icon",
+                                        "data": {
+                                            "title": "Okos megoldások",
+                                            "content": "Weboldalunkon okos megoldásokat kínálunk az elektromos szerelés területén, hogy növeljük otthona energiahatékonyságát és biztonságát."
+                                        }
+                                    },
+                                    "background_image": {
+                                        "src": "/assets/img/blur-man-showing-transparent-light-bulb-1500x857.jpg"
+                                    }
+                                },
+                                {
+                                    "content_section": {
+                                        "type": "electrician-skew-text-content-with-icon",
+                                        "data": {
+                                            "title": "Villanyszerelés",
+                                            "content": "Gyors és precíz munkavégzés legyen szó lakóházról, irodáról\nvagy ipari komplexumról.\nRugalmasan alkalmazkodunk az Ön igényeihez."
+                                        }
+                                    },
+                                    "background_image": {
+                                        "src": "/assets/img/male-electrician-works-switchboard-with-electrical-connecting-cable2-1500x857.jpg"
+                                    }
+                                },
+                                {
+                                    "content_section": {
+                                        "type": "electrician-skew-text-content-with-icon",
+                                        "data": {
+                                            "title": "Napelemek telepítése",
+                                            "content": "Napelemek szerelése, telepítése rövid határidővel! Precíz munkavégzés az igényeknek megfelelően."
+                                        }
+                                    },
+                                    "background_image": {
+                                        "src": "/assets/img/man-worker-firld-by-solar-panels-1500x857.jpg"
+                                    }
+                                },
+                            ]
+                        }
+                    }
                 }
-            },
-            {
-                "type": "electrician-services",
-                "data": {
-                },
-            },
+            }
         ],
     }
 }
