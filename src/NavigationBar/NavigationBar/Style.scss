@@ -1,31 +1,33 @@
 @import '../../styles/variables';
 @import '~bootstrap/scss/bootstrap';
 
-.topbar {
-    height: $topbar-base-height;
-    display: flex;
-    justify-content: center;
-    background-color: $primary-bg-color;
-    font-family: $primary-font-family;
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
-.logo {
+.navbar-toggler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        margin-left: 15px;
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+
+.topbar {
+    min-height: $topbar-base-height;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    font-family: "Poppins", sans-serif;
-    padding: 0 65px 0 40px;
-
-    a {
-        color: #303442;
-        font-weight: 600;
-        position: relative;
-        padding: 9px 0 9px 25px;
-        overflow: hidden;
-        display: inline-block;
-        text-decoration: none
-    }
+    background-color: $primary-bg-color;
+    font-family: $primary-font-family;
+    padding: 25px 65px 25px 40px;
 }
 
 .sidebar-brand {
@@ -39,25 +41,10 @@
 .menu {
     display: flex;
     align-items: center;
+}
 
-    a {
-        font-size: 16px;
-        line-height: 26px;
-
-        &:hover {
-            animation: shaking 0.4s 2;
-            color: $secondary-color;
-        }
-        
-        @keyframes shaking {
-           0% {transform: translateX(-10px);}
-           20% {transform: translateX(-5px);}
-           50% {transform: translateX(-5px);}
-           70% {transform: translateX(-5px);}
-           80% {transform: translateX(10px);}
-           90% {transform: translateX(-10px);}
-        }
-    }
+.navbar-nav {
+    align-items: center;
 }
 
 .btn, .btn:disabled {
@@ -69,12 +56,14 @@
     color: $light-color;
     border: 1px solid $secondary-color;
     border-radius: 6px;
+    box-shadow: none;
 }
 
 .btn:hover {
     color: $secondary-color-lighter;
     background-color: $light-color;
     border-color: $secondary-color-lighter;
+    box-shadow: none;
 }
 
 .btn:disabled {
@@ -83,9 +72,27 @@
 }
 
 .btn-l {
-    padding: .70rem 1.25rem .75rem 1.25rem;
+    padding: .75rem 1.25rem;
     font-family: $primary-font-family;
+    text-transform: uppercase;
     font-size: 1rem;
     font-weight: 700;
     margin-left: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-l {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .topbar {
+        padding: 35px;
+        justify-content: center;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
 }

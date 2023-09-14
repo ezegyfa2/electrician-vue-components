@@ -1,0 +1,9 @@
+div
+    dynamic-component(
+        v-if='windowWidth <= 425'
+        v-bind:component_infos='carousel_section'
+    )
+    dynamic-component(
+        v-else
+        v-bind:component_infos='skew_section'
+    )

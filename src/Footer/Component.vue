@@ -3,18 +3,28 @@
 </template>
 
 <script>
-    import Footer from './../../../helper-vue-components/src/Footer/Footer/Component.vue';
-
     export default {
-        mixins: [
-            Footer
-        ],
         props: {
-            image_url: {
-                type: String
+            cartContent: {
+                type: Array
             },
-            image_alt: {
-                type: String
+            column1_sections: {
+                type: Array
+            },
+            column2_sections: {
+                type: Array
+            },
+            column3_sections: {
+                type: Array
+            },
+            right_sections: {
+                type: Object
+            },
+            bottom_left_section: {
+                type: Object
+            },
+            bottom_right_section: {
+                type: Object
             },
         }
     }

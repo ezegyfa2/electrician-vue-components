@@ -1,35 +1,20 @@
 @import "../../styles/variables";
 
 .text-box {
-    background-color: $primary-color;
-    margin: 6rem 0;
+    background-color: $primary-bg-color;
+    margin-bottom: 6rem;
 }
 
 .image-wrapper {
-    overflow: hidden;
-    position: relative;
-    max-width: 50vw;
-    transform: skew(12deg, 0);
+    max-width: 50%;
 }
 
-.img-fluid {
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    -webkit-transform: skew(12deg, 0);
-    transform: skew(-12deg);
-    overflow: hidden;
-    width: calc(100% - 15px);
-    
-    &:hover {
-        z-index: 1;
-        width: calc(100% + 30px);
-    }
+.content-box {
+    width: 50%;
 }
 
-.light-text {
-    color: $light-color;
+.text-color {
+    color: $primary-color;
 }
 
 .description-text {
@@ -50,8 +35,32 @@
     opacity: 1;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .description-text {
-        padding: 2rem;
+        padding: 0 2rem;
+        max-width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .text-box {
+        flex-direction: column;
+    }
+
+    .image-wrapper {
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .content-box {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .description-text {
+        padding: 0 2rem;
+        max-width: 100%;
+    }
+}
+
+

@@ -1,5 +1,5 @@
 <template lang="pug">
-    include Template.pug
+include Template.pug
 </template>
 
 <script>
@@ -10,8 +10,18 @@
             NavigationBar
         ],
         props: {
+            navigationBarId: {
+                type: String,
+                default: 'navigationBarId'
+            },
             brand_section: {
                 type: Object
+            },
+            link_sections: {
+                type: Array
+            },
+            button_title: {
+                type: String
             },
             language: {
                 type: String,
