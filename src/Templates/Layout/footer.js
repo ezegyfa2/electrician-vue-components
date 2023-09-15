@@ -1,7 +1,7 @@
 export default {
     type: 'electrician-footer',
     data: {
-        column1_sections: [
+        column_sections: [
             {
                 type: 'electrician-list-items-content',
                 data: {
@@ -11,7 +11,7 @@ export default {
                             data: {
                                 nav_icon: 'fas fa-check',
                                 nav_url: '/',
-                                navitem_title: 'Rólunk'
+                                navitem_title: '--layout.footer.columns.links1.about_us'
                             }
                         },
                         {
@@ -19,7 +19,7 @@ export default {
                             data: {
                                 nav_icon: 'fas fa-check',
                                 nav_url: '/',
-                                navitem_title: 'Adatkezelés'
+                                navitem_title: '--layout.footer.columns.links1.privacy_policy'
                             }
                         },
                         {
@@ -27,14 +27,12 @@ export default {
                             data: {
                                 nav_icon: 'fas fa-check',
                                 nav_url: '/contact',
-                                navitem_title: 'Kapcsolat'
+                                navitem_title: '--layout.footer.columns.links1.contacts'
                             }
                         },
                     ]
                 }
-            }
-        ],
-        column2_sections: [
+            },
             {
                 type: 'electrician-list-items-content',
                 data: {
@@ -44,7 +42,7 @@ export default {
                             data: {
                                 nav_icon: 'fas fa-check',
                                 nav_url: '/products',
-                                navitem_title: 'Termékeink'
+                                navitem_title: '--layout.footer.columns.links2.our_products'
                             }
                         },
                         {
@@ -52,14 +50,12 @@ export default {
                             data: {
                                 nav_icon: 'fas fa-check',
                                 nav_url: '/products',
-                                navitem_title: 'Szolgáltatásaink'
+                                navitem_title: '--layout.footer.columns.links2.services'
                             }
                         },
                     ]
                 }
-            }
-        ],
-        column3_sections: [
+            },
             {
                 type: 'electrician-list-items-content',
                 data: {
@@ -69,7 +65,7 @@ export default {
                             data: {
                                 nav_icon: 'fas fa-check',
                                 nav_url: '/products',
-                                navitem_title: 'Cégeknek'
+                                navitem_title: '--layout.footer.columns.links3.for_companies'
                             }
                         },
                         {
@@ -77,22 +73,22 @@ export default {
                             data: {
                                 nav_icon: 'fas fa-check',
                                 nav_url: '/products',
-                                navitem_title: 'Lakossági ügyfeleknek'
+                                navitem_title: '--layout.footer.columns.links3.for_customers'
                             }
                         },
                     ]
                 }
             }
         ],
-        right_sections: {
-            street: '399 Crowfield Road',
-            city: 'Phoenix, Arizona 85012',
-            email: 'asff@fdsfsdc.com',
-            open: 'Hétfő-Péntek 8:00-17:00',
-            phone_number: '+602-926-5809'
+        address: {
+            street: '--layout.footer.address.street',
+            city: '--layout.footer.address.city',
+            email: '--layout.footer.address.email',
+            open: '--layout.footer.address.open',
+            phone_number: '--layout.footer.address.phone_number'
         },
-        bottom_left_section: {
-            copy: 'Copyright @ All Rights Reserved 2023',
+        copyright: {
+            copy: '--layout.footer.copyright.copy',
         },
         bottom_right_section: {
             "type": "wertically-icon-links",

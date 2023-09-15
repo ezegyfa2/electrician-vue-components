@@ -4,7 +4,7 @@ export default {
         "brand_section": {
             "type": "electrician-brand-image",
             "data": {
-                "title": "Electrician",
+                "title": "--layout.navbar.title",
                 "url": "/home",
                 "image_url": "++image_url",
                 "image_alt": "Brand Image"
@@ -15,18 +15,18 @@ export default {
                 "type": "electrician-navigation-link",
                 "data": {
                     "url": "/",
-                    "content": "Rólunk",
+                    "content": "--layout.navbar.about_us",
                 }
             },
             {
                 "type": "electrician-navigation-link",
                 "data": {
                     "url": "/",
-                    "content": "Termékeink",
+                    "content": "--layout.navbar.our_products",
                 }
             },
         ],
-        "button_title": "Időpontkérés",
+        "button_title": "--layout.navbar.button_title",
         "language": "-++language",
         "current_url": "-++current_url"
     }

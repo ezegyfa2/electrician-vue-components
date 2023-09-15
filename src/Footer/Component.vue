@@ -1,5 +1,5 @@
 <template lang="pug">
-    include Template.pug
+include Template.pug
 </template>
 
 <script>
@@ -8,19 +8,13 @@
             cartContent: {
                 type: Array
             },
-            column1_sections: {
+            column_sections: {
                 type: Array
             },
-            column2_sections: {
-                type: Array
-            },
-            column3_sections: {
-                type: Array
-            },
-            right_sections: {
+            address: {
                 type: Object
             },
-            bottom_left_section: {
+            copyright: {
                 type: Object
             },
             bottom_right_section: {

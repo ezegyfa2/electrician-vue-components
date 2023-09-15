@@ -1,49 +1,26 @@
 footer.footer-area
     .container
         .row.justify-content-between
-            .col
+            .col(v-for='column_section in column_sections')
                 .footer-widget
                     dynamic-component(
-                        v-for='thingSection in cartContent' v-bind:key='thingSection.id'
-                        v-bind:component_infos='thingSection'
+                        v-bind:component_infos='column_section'
                     )
-                    // column1_sections 
-                    dynamic-component(
-                        v-for='column1_section in column1_sections'
-                        v-bind:component_infos='column1_section'
-                    )
-                    // column1_sections
-            .col
-                .footer-widget
-                    // column2_sections
-                    dynamic-component(
-                        v-for='column2_section in column2_sections'
-                        v-bind:component_infos='column2_section'
-                    )
-                    // column2_sections
-            .col
-                .footer-widget
-                    // column3_sections
-                    dynamic-component(
-                        v-for='column3_section in column3_sections'
-                        v-bind:component_infos='column3_section'
-                    )
-                    // column3_sections
             .col-lg-6.col-sm-12.text-right.pb-5.pt-5.pt-lg-0
                 .footer-widget
                     // right_sections
-                    h4 {{ right_sections.street }},
-                    h4 {{ right_sections.city }}
+                    h4 {{ address.street }},
+                    h4 {{ address.city }}
                     .footer-email
-                        a(:href="'mailto:' + right_sections.email") {{ right_sections.email }}
-                    h5 {{ right_sections.open }}
-                    h6.footer-phone {{ right_sections.phone_number }}
+                        a(:href="'mailto:' + address.email") {{ address.email }}
+                    h5 {{ address.open }}
+                    h6.footer-phone {{ address.phone_number }}
                     // right_sections
         .row.justify-content-between.mt-2
             .col
                 // bottom_left_section
                 .tiny-footer
-                    p {{ bottom_left_section.copy }} 
+                    p {{ copyright.copy }} 
                 // bottom_left_section
             .col.text-right
                 // bottom_right_section
