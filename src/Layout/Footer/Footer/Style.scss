@@ -1,0 +1,61 @@
+@import 'electrician-vue-components/GlobalComponents/styles/globals';
+$footer-darker-color: #bbbdc3;
+
+@media (min-width: 1230px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.footer-area {
+    position: relative;
+    z-index: 1;
+    color: $light-color;
+    background-color: $primary-color;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-widget {
+    color: $light-color;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+    h4, h5, h6, .footer-email a {
+        color: $footer-darker-color;
+    }
+
+    .footer-email {
+        margin-bottom: 0.5rem;
+    }
+
+    h6.footer-phone:hover {
+        cursor: pointer;
+    }
+
+    .footer-email a:hover, h6.footer-phone:hover {
+        color: $secondary-color;
+    }
+}
+
+.footer-title {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color: $light-color2;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.tiny-footer {
+    color: $footer-darker-color;
+}
+
+.social-info {
+    display: inline-block;
+}

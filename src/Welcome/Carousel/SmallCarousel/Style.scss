@@ -1,0 +1,13 @@
+@import "electrician-vue-components/GlobalComponents/styles/globals";
+
+.carousel-caption {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    .carousel {
+        margin-top: 0rem;
+        margin-bottom: 6rem;
+    }
+}

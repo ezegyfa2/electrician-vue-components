@@ -1,0 +1,116 @@
+@import "electrician-vue-components/GlobalComponents/styles/globals";
+
+.title {
+    @extend .primary-text;
+    font: normal normal bold 36px $primary-font-family;
+    line-height: 46px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.content {
+    @extend .secondary-text;
+    font: normal normal normal 16px $primary-font-family;
+    line-height: 27px;
+    letter-spacing: 0.48px;
+    opacity: 1;
+    white-space: pre-wrap;
+    margin-bottom: 6rem;
+}
+
+.order-lg-first {
+    .description-text {
+        padding-right: 2rem;
+    }
+}
+
+.link {
+    margin-top: 2rem;
+}
+
+.btn, .btn:disabled {
+    /* Layout Properties */
+    width: 200px;
+    height: 48px;
+    /* UI Properties */
+    color: $light-color;
+    background: $secondary-color 0% 0% no-repeat padding-box;
+    border-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: $secondary-color-lighter;
+    background-color: $light-color;
+    border-color: $secondary-color-lighter;
+    box-shadow: none;
+}
+
+.btn:disabled {
+    background-color: $secondary-color-darker;
+    border-color: $secondary-color-darker;
+}
+
+.btn-l {
+    padding: .75rem 1.25rem;
+    font-family: $primary-font-family;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .title {
+        margin-bottom: 1.5rem;
+    }
+
+    .link {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .title {
+        font-size: 32px;
+        line-height: 42px;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .link {
+        display: flex;
+        justify-content: end;
+    }
+
+    .content {
+        text-align: start;
+    }
+}
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .link {
+        justify-content: center;
+    }
+
+    .content {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

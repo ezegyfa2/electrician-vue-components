@@ -1,0 +1,19 @@
+@import 'electrician-vue-components/GlobalComponents/styles/globals';
+
+.item {
+    color: $light-color;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-title {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+ul.list-unstyled {
+    text-decoration: none;
+
+    li {
+        margin-bottom: 10px;
+    }
+}

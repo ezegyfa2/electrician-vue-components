@@ -1,0 +1,21 @@
+@import 'electrician-vue-components/GlobalComponents/styles/globals';
+
+.li-list-element {
+    padding: 0px;
+    display: flex;
+
+    i {
+        margin-top: 5px;
+        margin-right: 1rem;
+        filter: invert(53%) sepia(91%) saturate(492%) hue-rotate(349deg) brightness(104%) contrast(98%);
+    }
+
+    a {
+        color: $light-color2;
+        font-weight: 400;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
