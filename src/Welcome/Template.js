@@ -7,10 +7,10 @@ export default {
                 "template_type_name": "electrician_carousel"
             },
             {
-                "template_type_name": "electrician_description"
+                "template_type_name": "electrician_descriptions"
             },
             {
-                "template_type_name": "electrician_skewcarousel"
+                "template_type_name": "electrician_skew_carousel"
             }
         ],
     }

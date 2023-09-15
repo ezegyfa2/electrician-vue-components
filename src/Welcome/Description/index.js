@@ -1,11 +1,7 @@
 export default {
     install(Vue) {
-        require('description-vue-components/Description').default.install(Vue)
-
-        registerVueComponent(
-            'electrician-description-section',
-            require('./Component.vue').default,
-            Vue
-        )
+        window.templates.electrician_descriptions = require('./Template').default
+        require('./Description').default.install(Vue)
+        require('./ArticleSmallTextContent').default.install(Vue)
     }
 }
