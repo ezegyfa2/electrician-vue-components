@@ -8,24 +8,18 @@ footer.footer-area
                     )
             .col-lg-6.col-sm-12.text-end.pb-5.pt-5.pt-lg-0
                 .footer-widget
-                    // right_sections
                     h4 {{ address.street }},
                     h4 {{ address.city }}
                     .footer-email
                         a(:href="'mailto:' + address.email") {{ address.email }}
                     h5 {{ address.open }}
                     h6.footer-phone {{ address.phone_number }}
-                    // right_sections
         .row.justify-content-between.mt-2
             .col
-                // bottom_left_section
                 .tiny-footer
                     p {{ copyright.copy }} 
-                // bottom_left_section
             .col.text-end
-                // bottom_right_section
                 .social-info
                     dynamic-component.text-center(
                         v-bind:component_infos='bottom_right_section'
                     )
-                // bottom_right_section

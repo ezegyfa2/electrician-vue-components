@@ -1,6 +1,6 @@
 div
     dynamic-component(
-        v-if='windowWidth <= 425'
+        v-if='windowSize.width <= 425'
         v-bind:component_infos='carousel_section'
     )
     dynamic-component(

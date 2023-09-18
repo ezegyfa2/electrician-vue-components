@@ -3,7 +3,12 @@ include Template.pug
 </template>
 
 <script>
+    import ReactiveWindowSize from 'helper-vue-components/ReactiveProperties/WindowSize/Component.vue'
+
     export default {
+        mixins: [
+            ReactiveWindowSize,
+        ],
         props: {
             carousel_section: {
                 type: Object
@@ -11,25 +16,6 @@ include Template.pug
             skew_section: {
                 type: Object
             }
-        },
-        data() {
-            return {
-                windowWidth: 0,
-            };
-        },
-        mounted() {
-            this.updateWindowWidth();
-            this.onScreenResize();
-        },
-        methods: {
-            onScreenResize() {
-            window.addEventListener("resize", () => {
-                this.updateWindowWidth();
-            });
-            },
-            updateWindowWidth() {
-            this.windowWidth = window.innerWidth;
-            },
-        },
+        }
     }
 </script>
