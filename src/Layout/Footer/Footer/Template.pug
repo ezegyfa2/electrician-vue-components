@@ -6,7 +6,7 @@ footer.footer-area
                     dynamic-component(
                         v-bind:component_infos='column_section'
                     )
-            .col-lg-6.col-sm-12.text-end.pb-5.pt-5.pt-lg-0
+            .col-lg-6.col-sm-12.text-right.pb-5.pt-5.pt-lg-0
                 .footer-widget
                     h4 {{ address.street }},
                     h4 {{ address.city }}
@@ -18,7 +18,7 @@ footer.footer-area
             .col
                 .tiny-footer
                     p {{ copyright.copy }} 
-            .col.text-end
+            .col.text-right
                 .social-info
                     dynamic-component.text-center(
                         v-bind:component_infos='bottom_right_section'

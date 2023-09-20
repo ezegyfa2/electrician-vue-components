@@ -1,37 +1,10 @@
-<template lang="pug">
-include Template.pug
-</template>
-
 <script>
-    import NavigationBar from 'blue-admin-vue-components/NavigationBar/NavigationBar/Component.vue'
+    import NavigationBar from 'helper-vue-components/NavigationBar/CollapsableNavigationBar/Component.vue'
 
     export default {
         mixins: [
             NavigationBar
-        ],
-        props: {
-            navigationBarId: {
-                type: String,
-                default: 'navigationBarId'
-            },
-            brand_section: {
-                type: Object
-            },
-            link_sections: {
-                type: Array
-            },
-            button_title: {
-                type: String
-            },
-            language: {
-                type: String,
-                default: 'RO'
-            },
-            current_url: {
-                type: String,
-                default: '/'
-            }
-        }
+        ]
     }
 </script>
 

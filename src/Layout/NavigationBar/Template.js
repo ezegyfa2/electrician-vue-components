@@ -5,7 +5,7 @@ export default {
             "type": "electrician-brand-image",
             "data": {
                 "title": "--layout.navbar.title",
-                "url": "/home",
+                "url": "/",
                 "image_url": "++image_url",
                 "image_alt": "Brand Image"
             }

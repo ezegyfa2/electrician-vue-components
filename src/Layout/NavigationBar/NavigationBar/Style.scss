@@ -1,15 +1,14 @@
 @import 'electrician-vue-components/GlobalComponents/styles/globals';
 
+.navbar {
+    background-color: white;
+}
 .navbar-collapse {
     justify-content: flex-end;
 }
 
 .navbar-toggler {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    svg {
+    i {
         margin-left: 15px;
     }
 
@@ -47,6 +46,13 @@
 }
 
 .btn, .btn:disabled {
+    padding: .75rem 1.25rem;
+    font-family: $primary-font-family;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 35px;
+
     /* Layout Properties */
     width: 200px;
     height: 48px;
@@ -70,15 +76,6 @@
     border-color: $secondary-color-darker;
 }
 
-.btn-l {
-    padding: .75rem 1.25rem;
-    font-family: $primary-font-family;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-left: 35px;
-}
-
 @media only screen and (max-width: 768px) {
     .btn-l {
         margin-left: 0;
@@ -86,7 +83,7 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .topbar {
+    .navbar {
         padding: 35px;
         justify-content: center;
     }

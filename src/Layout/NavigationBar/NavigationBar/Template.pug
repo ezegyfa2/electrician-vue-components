@@ -1,8 +1,8 @@
-nav.navbar.navbar-expand-lg.navbar-light.topbar.fixed-top(ref='mainNav')
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top(ref='mainNav')
     dynamic-component.navbar-brand(
         v-bind:component_infos='brand_section'
     )
-    button.btn.btn-l.navbar-toggler(
+    button.btn.navbar-toggler(
         type='button' 
         data-toggle='collapse' 
         v-bind:data-target='"#" + navigationBarId' 
@@ -18,4 +18,4 @@ nav.navbar.navbar-expand-lg.navbar-light.topbar.fixed-top(ref='mainNav')
                 v-for= 'link_section in link_sections'
                 v-bind:component_infos='link_section'
             )
-            button.btn.btn-l {{ button_title }}
+            button.btn {{ button_title }}
