@@ -1,4 +1,4 @@
-@import 'electrician-vue-components/GlobalComponents/styles/globals';
+@import 'electrician-vue-components/GlobalComponents/globals';
 $footer-darker-color: #bbbdc3;
 
 @media (min-width: 1230px) {
@@ -11,7 +11,7 @@ $footer-darker-color: #bbbdc3;
     position: relative;
     z-index: 1;
     color: $light-color;
-    background-color: $primary-color;
+    background-color: $primaryColor;
     padding-top: 60px;
     padding-bottom: 30px;
 }
@@ -34,7 +34,7 @@ $footer-darker-color: #bbbdc3;
     }
 
     .footer-email a:hover, h6.footer-phone:hover {
-        color: $secondary-color;
+        color: $secondaryColor;
     }
 }
 

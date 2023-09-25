@@ -10,6 +10,9 @@ include Template.pug
             ReactiveWindowSize,
         ],
         props: {
+            id: {
+                type: String
+            },
             carousel_section: {
                 type: Object
             },

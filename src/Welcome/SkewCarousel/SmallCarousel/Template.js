@@ -9,8 +9,8 @@ export default {
                     "content_section": {
                         "type": "electrician-small-carousel-small-text-content",
                         "data": {
-                            "title": "--skewCarousel.sections.slide1.title",
-                            "content": "--skewCarousel.sections.slide1.content"
+                            "title": "--welcome.skew_carousel.sections.slide1.title",
+                            "content": "--welcome.skew_carousel.sections.slide1.content"
                         }
                     }
                 }
@@ -22,8 +22,8 @@ export default {
                     "content_section": {
                         "type": "electrician-small-carousel-small-text-content",
                         "data": {
-                            "title": "--skewCarousel.sections.slide2.title",
-                            "content": "--skewCarousel.sections.slide2.content"
+                            "title": "--welcome.skew_carousel.sections.slide2.title",
+                            "content": "--welcome.skew_carousel.sections.slide2.content"
                         }
                     }
                 }
@@ -35,8 +35,8 @@ export default {
                     "content_section": {
                         "type": "electrician-small-carousel-small-text-content",
                         "data": {
-                            "title": "--skewCarousel.sections.slide3.title",
-                            "content": "--skewCarousel.sections.slide3.content"
+                            "title": "--welcome.skew_carousel.sections.slide3.title",
+                            "content": "--welcome.skew_carousel.sections.slide3.content"
                         }
                     }
                 }

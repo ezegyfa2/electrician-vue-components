@@ -4,7 +4,7 @@ export default {
         "navigation_bar_section": {
             "template_type_name": "electrician_navigation_bar",
             "params": {
-                "image_url": "++navigation_bar_image_url"
+                "languages": "-++languages"
             }
         },
         "content_sections": "++content_sections",

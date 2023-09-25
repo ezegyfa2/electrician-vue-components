@@ -1,0 +1,35 @@
+$ma-red: #fd9416;
+$ma-hover: #f7aa4e;
+$ma-clicked: #ff8b00;
+$ma-disabled: #BDCACE;
+$ma-dark: #303442;
+$ma-medium: #525F66;
+$ma-light: #7A8F99;
+$ma-bg-01: #F0F3F5;
+
+$primaryColor: $ma-dark !default;
+$primaryColor-lighter: $ma-medium !default;
+$primaryColor-light: $ma-light !default;
+$secondaryColor: $ma-red !default;
+$secondaryColor-lighter: $ma-hover !default;
+$secondaryColor-darker: $ma-clicked !default;
+$primaryFontFamily: "Poppins", sans-serif !default;
+$secondaryFontFamily: "Roboto",sans-serif !default;
+
+$primary-bg-color: white;
+$box-shadow: #0D988C1A;
+$box-shadow2: #00000029;
+
+$light-color: white;
+$light-color2: #FCFCFC;
+
+$topbar-base-height: 120px;
+
+.primary-text {
+    font-weight: 700;
+    font-family: $primaryFontFamily;
+}
+.secondary-text {
+    font-weight: 400;
+    font-family: $secondaryFontFamily;
+}

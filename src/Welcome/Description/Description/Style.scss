@@ -1,4 +1,4 @@
-@import "electrician-vue-components/GlobalComponents/styles/globals";
+@import "electrician-vue-components/GlobalComponents/globals";
 
 .text-box {
     background-color: $primary-bg-color;
@@ -14,7 +14,7 @@
 }
 
 .text-color {
-    color: $primary-color;
+    color: $primaryColor;
 }
 
 .description-text {
@@ -30,7 +30,7 @@
     width: 200px;
     height: 48px;
     /* UI Properties */
-    background: $secondary-color 0% 0% no-repeat padding-box;
+    background: $secondaryColor 0% 0% no-repeat padding-box;
     border-radius: 6px;
     opacity: 1;
 }

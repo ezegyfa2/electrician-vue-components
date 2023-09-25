@@ -1,4 +1,4 @@
-@import 'electrician-vue-components/GlobalComponents/styles/globals';
+@import 'electrician-vue-components/GlobalComponents/globals';
 
 .li-list-element {
     padding: 0px;
@@ -15,7 +15,7 @@
         font-weight: 400;
 
         &:hover {
-            color: $secondary-color;
+            color: $secondaryColor;
         }
     }
 }

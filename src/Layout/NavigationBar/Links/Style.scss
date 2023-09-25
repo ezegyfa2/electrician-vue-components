@@ -1,0 +1,19 @@
+@import 'electrician-vue-components/GlobalComponents/globals';
+
+.nav-item {
+    margin-left: 2rem;
+
+    .nav-link {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 600;
+        position: relative;
+        color: $primaryColor;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-item {
+        margin: 0;
+    }    
+}

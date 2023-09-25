@@ -1,0 +1,32 @@
+@import "electrician-vue-components/GlobalComponents/globals";
+
+.dropdown-item {
+    white-space: normal;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 0;
+    line-height: 1.3rem;
+
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color: $primaryColor;
+    text-align: inherit;
+    background-color: $light-color;
+    &:active {
+        color: $primaryColor;
+        background-color: $secondaryColor;
+    }
+    &:hover {
+        color: $primaryColor;
+        background-color: $secondaryColor;
+    }
+}
+
+@media (max-width: 575px) {
+    .dropdown-item {
+        .text-truncate {
+            max-width: 13.375rem;
+        }
+    }
+}

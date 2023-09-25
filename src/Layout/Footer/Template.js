@@ -10,8 +10,24 @@ export default {
                             type: 'electrician-list-item-link',
                             data: {
                                 nav_icon: 'fas fa-check',
-                                nav_url: '/',
-                                navitem_title: '--layout.footer.columns.links1.about_us'
+                                nav_url: '#main_description',
+                                navitem_title: '--layout.footer.links.about_us'
+                            }
+                        },
+                        {
+                            type: 'electrician-list-item-link',
+                            data: {
+                                nav_icon: 'fas fa-check',
+                                nav_url: '#contact_us',
+                                navitem_title: '--layout.footer.links.contact'
+                            }
+                        },
+                        {
+                            type: 'electrician-list-item-link',
+                            data: {
+                                nav_icon: 'fas fa-check',
+                                nav_url: '#services',
+                                navitem_title: '--layout.footer.links.services'
                             }
                         },
                         {
@@ -19,61 +35,7 @@ export default {
                             data: {
                                 nav_icon: 'fas fa-check',
                                 nav_url: '/',
-                                navitem_title: '--layout.footer.columns.links1.privacy_policy'
-                            }
-                        },
-                        {
-                            type: 'electrician-list-item-link',
-                            data: {
-                                nav_icon: 'fas fa-check',
-                                nav_url: '/contact',
-                                navitem_title: '--layout.footer.columns.links1.contacts'
-                            }
-                        },
-                    ]
-                }
-            },
-            {
-                type: 'electrician-list-items-content',
-                data: {
-                    link_sections: [
-                        {
-                            type: 'electrician-list-item-link',
-                            data: {
-                                nav_icon: 'fas fa-check',
-                                nav_url: '/products',
-                                navitem_title: '--layout.footer.columns.links2.our_products'
-                            }
-                        },
-                        {
-                            type: 'electrician-list-item-link',
-                            data: {
-                                nav_icon: 'fas fa-check',
-                                nav_url: '/products',
-                                navitem_title: '--layout.footer.columns.links2.services'
-                            }
-                        },
-                    ]
-                }
-            },
-            {
-                type: 'electrician-list-items-content',
-                data: {
-                    link_sections: [
-                        {
-                            type: 'electrician-list-item-link',
-                            data: {
-                                nav_icon: 'fas fa-check',
-                                nav_url: '/products',
-                                navitem_title: '--layout.footer.columns.links3.for_companies'
-                            }
-                        },
-                        {
-                            type: 'electrician-list-item-link',
-                            data: {
-                                nav_icon: 'fas fa-check',
-                                nav_url: '/products',
-                                navitem_title: '--layout.footer.columns.links3.for_customers'
+                                navitem_title: '--layout.footer.links.privacy_policy'
                             }
                         },
                     ]

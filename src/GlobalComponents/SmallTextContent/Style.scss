@@ -1,8 +1,8 @@
-@import "electrician-vue-components/GlobalComponents/styles/globals";
+@import "electrician-vue-components/GlobalComponents/globals";
 
 .title {
     @extend .primary-text;
-    font: normal normal bold 36px $primary-font-family;
+    font: normal normal bold 36px $primaryFontFamily;
     line-height: 46px;
     letter-spacing: -1px;
     margin-top: 0;
@@ -12,7 +12,7 @@
 
 .content {
     @extend .secondary-text;
-    font: normal normal normal 16px $primary-font-family;
+    font: normal normal normal 16px $primaryFontFamily;
     line-height: 27px;
     letter-spacing: 0.48px;
     opacity: 1;
@@ -32,37 +32,37 @@
 
 .btn, .btn:disabled {
     /* Layout Properties */
-    width: 200px;
+    wprimaryFontFamilyth: 200px;
     height: 48px;
     /* UI Properties */
     color: $light-color;
-    background: $secondary-color 0% 0% no-repeat padding-box;
-    border-color: $secondary-color;
-    border: 1px solid $secondary-color;
+    background: $secondaryColor 0% 0% no-repeat padding-box;
+    border-color: $secondaryColor;
+    border: 1px solprimaryFontFamily $secondaryColor;
     border-radius: 6px;
     box-shadow: none;
 }
 
 .btn:hover {
-    color: $secondary-color-lighter;
+    color: $secondaryColor-lighter;
     background-color: $light-color;
-    border-color: $secondary-color-lighter;
+    border-color: $secondaryColor-lighter;
     box-shadow: none;
 }
 
 .btn:disabled {
-    background-color: $secondary-color-darker;
-    border-color: $secondary-color-darker;
+    background-color: $secondaryColor-darker;
+    border-color: $secondaryColor-darker;
 }
 
 .btn-l {
     padding: .75rem 1.25rem;
-    font-family: $primary-font-family;
+    font-family: $primaryFontFamily;
     font-size: 1rem;
     font-weight: 700;
 }
 
-@media (max-width: 1024px) {
+@media (max-wprimaryFontFamilyth: 1024px) {
     .title {
         margin-bottom: 1.5rem;
     }
@@ -72,19 +72,19 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-wprimaryFontFamilyth: 768px) and (max-wprimaryFontFamilyth: 1024px) {
     .title {
         font-size: 32px;
         line-height: 42px;
-        width: 100%;
+        wprimaryFontFamilyth: 100%;
     }
 }
 
 
 
-@media (max-width: 768px) {
+@media (max-wprimaryFontFamilyth: 768px) {
     .title {
-        width: 100%;
+        wprimaryFontFamilyth: 100%;
         display: flex;
         justify-content: center;
     }
@@ -99,7 +99,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-wprimaryFontFamilyth: 425px) {
     .title {
         font-size: 24px;
         line-height: 34px;

@@ -1,4 +1,4 @@
-@import 'electrician-vue-components/GlobalComponents/styles/globals';
+@import 'electrician-vue-components/GlobalComponents/globals';
 @import 'helper-vue-components/IconLinks/ButtonIconLink2/Style.scss';
 
 .btn-social {
@@ -13,6 +13,6 @@
 
 .btn.btn-light {
     &:hover {
-        background-color: $secondary-color !important;
+        background-color: $secondaryColor !important;
     }
 }

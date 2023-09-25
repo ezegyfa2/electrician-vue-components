@@ -1,16 +1,9 @@
-@import 'electrician-vue-components/GlobalComponents/styles/globals';
+@import "../Style.scss";
 
 .nav-link {
-    font-size: 18px;
-    line-height: 28px;
-    color: $primary-color !important;
-    font-weight: 600;
-    position: relative;
-    padding: 9px 0 9px 25px;
-
     &:hover {
         animation: shaking 0.4s 2;
-        color: $secondary-color !important;
+        color: $secondaryColor !important;
     }
     
     @keyframes shaking {
@@ -21,10 +14,4 @@
         80% {transform: translateX(10px);}
         90% {transform: translateX(-10px);}
     }
-}
-
-@media screen and (max-width: 768px) {
-    .nav-item {
-        margin: 0;
-    }    
 }
