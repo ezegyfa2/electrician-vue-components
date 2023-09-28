@@ -1,6 +1,7 @@
 export default {
     template_type_name: 'electrician_layout',
     params: {
+        success_messages: '++success_messages',
         content_sections: [
             {
                 template_type_name: 'electrician_carousel'
