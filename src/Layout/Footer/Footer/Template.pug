@@ -1,12 +1,12 @@
 footer.footer-area
     .container
         .row.justify-content-between
-            .col(v-for='column_section in column_sections')
+            .col-md-6(v-for='column_section in column_sections')
                 .footer-widget
                     dynamic-component(
                         v-bind:component_infos='column_section'
                     )
-            .col-lg-6.col-sm-12.text-right.pb-5.pt-5.pt-lg-0
+            .col-md-6.col-sm-12.address-text-right.pb-5.pt-lg-0
                 .footer-widget
                     h4 {{ address.street }},
                     h4 {{ address.city }}

@@ -44,13 +44,25 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar-toggler {
+        display: flex;
+    }
+}
+
 @media only screen and (max-width: 425px) {
     .navbar {
-        padding: 35px;
+        padding: 15px 0;
         justify-content: center;
     }
 
     .navbar-collapse {
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .button-menu {
+        display: none;
     }
 }

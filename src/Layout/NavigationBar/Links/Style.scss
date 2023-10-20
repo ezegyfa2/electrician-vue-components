@@ -12,6 +12,20 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .nav-item {
+        margin-left: 1rem;
+    
+        .nav-link {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 600;
+            position: relative;
+            color: $primaryColor;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .nav-item {
         margin: 0;

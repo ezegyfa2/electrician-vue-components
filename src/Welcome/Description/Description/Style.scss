@@ -61,6 +61,16 @@
         padding: 0 2rem;
         max-width: 100%;
     }
+
+    .text-lg-right {
+        text-align: start;
+    }
+}
+
+@media (max-width: 375px) {
+    .description-text {
+        padding: 0;
+    }
 }
 
 

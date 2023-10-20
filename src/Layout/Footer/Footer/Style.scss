@@ -12,14 +12,18 @@ $footer-darker-color: #bbbdc3;
     z-index: 1;
     color: $light-color;
     background-color: $primaryColor;
-    padding-top: 60px;
     padding-bottom: 30px;
+}
+
+.address-text-right {
+    text-align: right !important;
 }
 
 .footer-widget {
     color: $light-color;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+    padding-top: 3rem;
 
     h4, h5, h6, .footer-email a {
         color: $footer-darker-color;
@@ -58,4 +62,10 @@ ul li {
 
 .social-info {
     display: inline-block;
+}
+
+@media (max-width: 425px) {
+    .address-text-right {
+        text-align: left !important;
+    }
 }
