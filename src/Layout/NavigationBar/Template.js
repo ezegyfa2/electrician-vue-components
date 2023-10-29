@@ -15,14 +15,14 @@ export default {
                 "type": "electrician-navigation-link",
                 "data": {
                     "url": "#main_description",
-                    "content": "--layout.navbar.about_us",
+                    "content": "--layout.navbar.about_us"
                 }
             },
             {
                 "type": "electrician-navigation-link",
                 "data": {
                     "url": "#services",
-                    "content": "--layout.navbar.our_services",
+                    "content": "--layout.navbar.our_services"
                 }
             },
             {
