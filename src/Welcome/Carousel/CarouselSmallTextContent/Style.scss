@@ -46,18 +46,20 @@
     }
 }
 
-.title {
-    font-size: 18px;
-    line-height: 28px;
+@media (min-width: 769px) {
+    .title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .content {
+        font-size: 58px;
+        line-height: 64px;
+        margin-top: 15px;
+    }
 }
 
-.content {
-    font-size: 58px;
-    line-height: 64px;
-    margin-top: 15px;
-}
-
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
     .content {
         font-size: 36px;
         line-height: 44px;

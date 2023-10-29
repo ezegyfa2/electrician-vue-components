@@ -1,10 +1,8 @@
 @import 'electrician-vue-components/GlobalComponents/globals';
+@import 'helper-vue-components/NavigationBar/CollapsableNavigationBar/Style.scss';
 
 .navbar {
     background-color: $light-color;
-}
-.navbar-collapse {
-    justify-content: flex-end;
 }
 
 .navbar-toggler {
@@ -59,10 +57,8 @@
     .navbar-collapse {
         justify-content: center;
     }
-}
 
-@media only screen and (max-width: 320px) {
-    .button-menu {
+    .menu-title {
         display: none;
     }
 }

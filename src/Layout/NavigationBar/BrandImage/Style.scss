@@ -21,7 +21,7 @@
         filter: invert(53%) sepia(91%) saturate(492%) hue-rotate(349deg) brightness(104%) contrast(98%);
     }
 
-    p {
+    .title {
         display: inline;
         margin-left: 5px;
     }
@@ -86,7 +86,7 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
     .brand-section {
         padding: 9px 10px;
         font-size: 24px;
@@ -105,5 +105,10 @@
     .navbar-brand {
         margin-right: 0;
     }
+}
 
+@media only screen and (max-width: 320px) {
+    .title {
+        font-size: 21px;
+    }
 }

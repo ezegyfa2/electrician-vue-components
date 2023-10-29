@@ -11,7 +11,14 @@ export default {
                     }
                 },
                 "background_image": {
-                    "src": "/assets/img/blur-man-showing-transparent-light-bulb-1500x857.jpg"
+                    "src": "skewContainer/blurMan",
+                    "widths": [
+                        320,
+                        375,
+                        425,
+                        500,
+                        600
+                    ]
                 }
             },
             {
@@ -23,7 +30,14 @@ export default {
                     }
                 },
                 "background_image": {
-                    "src": "/assets/img/male-electrician-works-switchboard-with-electrical-connecting-cable2-1500x857.jpg"
+                    "src": "skewContainer/electricianWork",
+                    "widths": [
+                        320,
+                        375,
+                        425,
+                        500,
+                        600
+                    ]
                 }
             },
             {
@@ -35,7 +49,14 @@ export default {
                     }
                 },
                 "background_image": {
-                    "src": "/assets/img/man-worker-firld-by-solar-panels-1500x857.jpg"
+                    "src": "skewContainer/solarPanel",
+                    "widths": [
+                        320,
+                        375,
+                        425,
+                        500,
+                        600
+                    ]
                 }
             },
         ]
