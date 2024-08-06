@@ -20,3 +20,23 @@
     align-items: flex-start;
     padding-bottom: 9px;
 }
+
+@media (width >= 500px) {
+    .carousel-item {
+        height: 900px !important;
+    }
+    
+    .carousel-item img {
+        height: 100%;
+    }
+}
+
+@media (width < 500px) {
+    .carousel-item {
+        height: 400px !important;
+    }
+    
+    .carousel-item img {
+        height: 100%;
+    }
+}

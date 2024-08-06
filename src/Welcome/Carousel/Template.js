@@ -5,7 +5,7 @@ export default {
             {
                 "type": "electrician-zoom-carousel-slide",
                 "data": {
-                    "background_image_source": "/assets/img/worker-is-cutting-wires-with-lineman-s-pliers-1500x857.jpg",
+                    "background_image_source": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-1500x857.webp",
                     "content_section": {
                         "type": "electrician-carousel-small-text-content",
                         "data": {
@@ -18,7 +18,7 @@ export default {
             {
                 "type": "electrician-zoom-carousel-slide",
                 "data": {
-                    "background_image_source": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-1500x857.jpg",
+                    "background_image_source": "/assets/img/worker-is-cutting-wires-with-lineman-s-pliers-1500x857.jpg",
                     "content_section": {
                         "type": "electrician-carousel-small-text-content",
                         "data": {
@@ -31,7 +31,7 @@ export default {
             {
                 "type": "electrician-zoom-carousel-slide",
                 "data": {
-                    "background_image_source": "/assets/img/businessman-hand-holding-lightbulb-with-glowing-light-creative-smart-thinking-inspiration-1500x857.jpg",
+                    "background_image_source": "/assets/img/businessman-hand-holding-lightbulb-with-glowing-light-creative-smart-thinking-inspiration-1500x857.webp",
                     "content_section": {
                         "type": "electrician-carousel-small-text-content",
                         "data": {
